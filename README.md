@@ -1,6 +1,8 @@
 # surface_laptop_3_sonoma_opencore0.9.4
 
-适用于 surface laptop 3 1035G7 版本
+### 适用于 surface laptop 3 1035G7
+
+### Macos 版本：macOS Sonoma 14beta 7（23A5337a）
 
 ## 能用：
 - cpu
@@ -23,7 +25,7 @@
 - 键盘背光
 - CPU变频
 - 随航
-
+- usb type-c
 
 
 
