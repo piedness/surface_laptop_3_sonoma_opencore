@@ -8,3 +8,5 @@
 
 ## 注意事项
 - Lilu.kext 须使用 v1.6.6 版本 （macOS Sonoma 14beta 7（23A5337a））
+
+## 持续更新中...
