@@ -3,6 +3,7 @@
 ### 适用于 surface laptop 3 1035G7
 
 ### Macos 版本：macOS Sonoma 14beta 7（23A5337a）
+### opencore 版本：0.9.4
 
 ## 能用：
 - cpu
