@@ -1,4 +1,32 @@
 # surface_laptop_3_sonoma_opencore0.9.4
+
+适用于 surface laptop 3 1035G7 版本
+
+## 能用：
+- cpu
+- igpu 显存1536MB
+- 触控板
+- 扬声器
+- 电池
+
+## 不能用：
+- 亮度调节
+- wifi
+- 蓝牙
+- 睡眠唤醒
+
+## 待测试
+- USB3.0
+- 3.5mm耳机
+- 内置摄像头
+- 原生电源管理
+- 键盘背光
+- CPU变频
+- 随航
+
+
+
+
 ## 参考网址：
 - [https://dortania.github.io/OpenCore-Install-Guide/]
 - [https://github.com/acidanthera/OpenCorePkg]
