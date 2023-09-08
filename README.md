@@ -22,7 +22,9 @@
 - 睡眠唤醒
 
 ## bug：
-- 睡眠后唤醒很慢
+- 睡眠后唤醒很慢、
+- hidpi开启后花屏
+- cpu温度较高
 
 ## 待测试
 - usb 3.0 
@@ -43,21 +45,25 @@
 ## 注意事项
 - Lilu.kext 须使用 v1.6.6 版本 （macOS Sonoma 14beta 7（23A5337a））
 
-## 23/9/26
+## 23/9/6
 - 核显驱动教程
-- framebuffer-patch-enable 01000000 开启 WEG 提供的补丁功能
-- framebuffer-stolenmem 00000008 128M 视频动态分配的内存大小
-- framebuffer-fbmem  00000003 48M 内存大小，会影响高分屏
-- framebuffer-unifiedmem  00000080 2048M 设置核显能调用的显存大小
-
-
 [https://www.rstk.cn/news/1278886.html?action=onClick]
 [http://www.imacosx.cn/6546.html]
 [https://zhuanlan.zhihu.com/p/568909859]
 - OC引导参数设定
 [https://zhuanlan.zhihu.com/p/543147047?utm_id=0]
 [http://hktiankong.cn/hepg/2022-12-15/1.html]
-[]
+
+## 23/9.8
+- 帧缓冲设置：
+  - stolenmem 设置128M（00000001）及以上时，鼠标不会花
+  - 
+
+
+
+
+
+
 
 
 ## 持续更新中...
