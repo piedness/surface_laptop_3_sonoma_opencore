@@ -56,7 +56,8 @@
 
 ## 23/9.8
 - 帧缓冲设置：
-  - stolenmem 设置128M（00000001）及以上时，鼠标不会花
+  - framebuffer-stolenmem 设置128M（00000001）及以上时，鼠标不会花屏
+  - framebuffer-unifiedmem 设置2048MB（00000080），再开启hidpi 会花屏
   - 
 
 
