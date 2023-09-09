@@ -74,17 +74,23 @@
 
 
 ## 参考网址：
-- [https://dortania.github.io/OpenCore-Install-Guide/]
-- [https://dortania.github.io/OpenCore-Post-Install/]
-- [https://github.com/acidanthera/OpenCorePkg]
-- [https://opencore.slowgeek.com/]
-- [https://github.com/demonxjj/ocat]
-- [https://www.rstk.cn/news/1278886.html?action=onClick]
-- [http://www.imacosx.cn/6546.html]
-- [https://zhuanlan.zhihu.com/p/568909859]
-- [https://zhuanlan.zhihu.com/p/543147047?utm_id=0]
-- [http://hktiankong.cn/hepg/2022-12-15/1.html]
-
+- 下载：
+  - [https://github.com/demonxjj/ocat]
+  - [https://github.com/acidanthera/OpenCorePkg]
+    
+- 验证plist：
+  - [https://opencore.slowgeek.com/]
+    
+ - 其他教程：
+   - [https://dortania.github.io/OpenCore-Install-Guide/]
+   - [https://dortania.github.io/OpenCore-Post-Install/]
+   - [https://www.rstk.cn/news/1278886.html?action=onClick]
+   - [https://zhuanlan.zhihu.com/p/568909859]
+   - [https://zhuanlan.zhihu.com/p/543147047?utm_id=0]
+   - [http://hktiankong.cn/hepg/2022-12-15/1.html]
+   - [https://github.com/acidanthera/WhateverGreen/blob/master/Manual/FAQ.IntelHD.cn.md]
+   - [http://imacos.top/2020/09/03/2216/]
+   - [https://blog.daliansky.net/OpenCore-BootLoader.html]
 
 
 
