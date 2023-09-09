@@ -5,6 +5,10 @@
 ### Macos 版本：macOS Sonoma 14beta 7（23A5337a）
 ### opencore 版本：0.9.4
 
+## 注意事项：    
+- Lilu.kext 须使用 v1.6.6 版本 （macOS Sonoma 14beta 7（23A5337a）），原因未知
+
+
 ## 能用：
 - cpu
 - igpu 显存1536MB
@@ -20,45 +24,76 @@
 - 键盘背光
 - CPU变频
 - 睡眠唤醒
+- hidpi ( 1368 x 912 )
 
-## bug：
-- 睡眠后唤醒很慢、
-- hidpi开启后花屏
+
+
+## 不完美：
+- 睡眠后唤醒很慢
 - cpu温度较高
+- usb 未定制
+
+
 
 ## 待测试
 - usb 3.0 
 - usb type-c
-- 原生电源管理
 - 随航
+
+
+## config 编辑
+
+- boot-args：
+  - alcid=35
+  - -igfxblr
+  - -igfxdbeo
+  - -igfxcdc
+  - -igfxdvmt
+  - -igfxbls
+  - -noDC9
+
+
+- DP ：
+  - 缓冲帧设置：
+    - AAPL,ig-platform-id: 0000528A
+    - framebuffer-patch-enable：01000000
+    - framebuffer-stolenmem：0000B003
+    - framebuffer-fbmem：00009000
+ 
+  - 修复设置：
+    - GraphicsBacklightSetup-0：0000010000000000AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA00000000000000000000000000000000
+    - GraphicsDisplaySetup：0000010000000000040000008C0A00000100000000000100000003000000906C8A0F00000000000A0000400600005000000000000000000000002E000000000000000000000008000000200000000120000000080000000000010001000000000001000000040000000000000101000000000000000000400B000008070000002D0000010000000000000000
+    - enable-hdmi20: 01000000
+    - enable-dpcd-max-link-rate-fix: 01000000
+    - dpcd-max-link-rate: 14000000
+    - igfxfw: 02000000
+
+
 
 
 
 
 ## 参考网址：
 - [https://dortania.github.io/OpenCore-Install-Guide/]
+- [https://dortania.github.io/OpenCore-Post-Install/]
 - [https://github.com/acidanthera/OpenCorePkg]
-## config 编辑
 - [https://opencore.slowgeek.com/]
 - [https://github.com/demonxjj/ocat]
+- [https://www.rstk.cn/news/1278886.html?action=onClick]
+- [http://www.imacosx.cn/6546.html]
+- [https://zhuanlan.zhihu.com/p/568909859]
+- [https://zhuanlan.zhihu.com/p/543147047?utm_id=0]
+- [http://hktiankong.cn/hepg/2022-12-15/1.html]
 
-## 注意事项
-- Lilu.kext 须使用 v1.6.6 版本 （macOS Sonoma 14beta 7（23A5337a））
 
-## 23/9/6
-- 核显驱动教程
-[https://www.rstk.cn/news/1278886.html?action=onClick]
-[http://www.imacosx.cn/6546.html]
-[https://zhuanlan.zhihu.com/p/568909859]
-- OC引导参数设定
-[https://zhuanlan.zhihu.com/p/543147047?utm_id=0]
-[http://hktiankong.cn/hepg/2022-12-15/1.html]
 
-## 23/9.8
-- 帧缓冲设置：
-  - framebuffer-stolenmem 设置128M（00000001）及以上时，鼠标不会花屏
-  - framebuffer-unifiedmem 设置2048MB（00000080），再开启hidpi 会花屏
-  - 
+
+
+
+
+
+
+
 
 
 
