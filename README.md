@@ -1,4 +1,4 @@
-# surface_laptop_3_sonoma_opencore0.9.4
+# surface_laptop_3_sonoma_opencore
 
 ### 适用于 surface laptop 3 1035G7
 
