@@ -11,7 +11,7 @@
 
 ## 能用：
 - cpu
-- igpu 显存1536MB
+- igpu 显存1536MB，解码正常
 - 触控板
 - 扬声器
 - 电池
@@ -32,7 +32,7 @@
 - 睡眠后唤醒很慢
 - cpu温度较高
 - usb 未定制
-- hidpi开启后花屏（无法更改stolenmem大小）
+- 鼠标图标显示不全
 
 
 ## 待测试
@@ -45,12 +45,8 @@
 
 - boot-args：
   - alcid=35
-  - -igfxblr
-  - -igfxdbeo
-  - -igfxcdc
-  - -igfxdvmt
-  - -igfxbls
   - -noDC9
+  - igfxonln=1
 
 
 - DP ：
