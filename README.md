@@ -52,20 +52,26 @@
 - DP ：
   - 缓冲帧设置：
     - AAPL,ig-platform-id: 0000528A
-    - framebuffer-patch-enable：01000000
-    - framebuffer-stolenmem：0000B003
-    - framebuffer-fbmem：00009000
+    - AAPL,GfxYTile：01000000
+    - framebuffer-patch-enable：
+    - framebuffer-stolenmem：
+    - framebuffer-fbmem：
  
-  - 修复设置：
+  - 补丁设置：
     - GraphicsBacklightSetup-0：0000010000000000AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA00000000000000000000000000000000
     - GraphicsDisplaySetup：0000010000000000040000008C0A00000100000000000100000003000000906C8A0F00000000000A0000400600005000000000000000000000002E000000000000000000000008000000200000000120000000080000000000010001000000000001000000040000000000000101000000000000000000400B000008070000002D0000010000000000000000
     - enable-hdmi20: 01000000
     - enable-dpcd-max-link-rate-fix: 01000000
     - dpcd-max-link-rate: 14000000
     - igfxfw: 02000000
-
-
-
+    - enable-backlight-registers-fix：01000000
+    - enable-backlight-smoother：01000000
+    - enable-cdclk-frequency-fix：01000000
+    - enable-dbuf-early-optimizer：01000000
+    - enable-dvmt-calc-fix：01000000
+    - enable-max-pixel-clock-override：01000000
+    - hda-gfx：onboard-1
+    - model：Intel Iris Plus Graphics G7
 
 
 
