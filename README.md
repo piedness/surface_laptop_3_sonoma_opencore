@@ -32,46 +32,12 @@
 - 睡眠后唤醒很慢
 - cpu温度较高
 - usb 未定制
-- 鼠标图标显示不全
 
 
 ## 待测试
 - usb 3.0 
 - usb type-c
 - 随航
-
-
-## config 编辑
-
-- boot-args：
-  - alcid=35
-  - -noDC9
-  - igfxonln=1
-
-
-- DP ：
-  - 缓冲帧设置：
-    - AAPL,ig-platform-id: 0000528A
-    - AAPL,GfxYTile：01000000
-    - framebuffer-patch-enable：
-    - framebuffer-stolenmem：
-    - framebuffer-fbmem：
- 
-  - 补丁设置：
-    - GraphicsBacklightSetup-0：0000010000000000AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA00000000000000000000000000000000
-    - GraphicsDisplaySetup：0000010000000000040000008C0A00000100000000000100000003000000906C8A0F00000000000A0000400600005000000000000000000000002E000000000000000000000008000000200000000120000000080000000000010001000000000001000000040000000000000101000000000000000000400B000008070000002D0000010000000000000000
-    - enable-hdmi20: 01000000
-    - enable-dpcd-max-link-rate-fix: 01000000
-    - dpcd-max-link-rate: 14000000
-    - igfxfw: 02000000
-    - enable-backlight-registers-fix：01000000
-    - enable-backlight-smoother：01000000
-    - enable-cdclk-frequency-fix：01000000
-    - enable-dbuf-early-optimizer：01000000
-    - enable-dvmt-calc-fix：01000000
-    - enable-max-pixel-clock-override：01000000
-    - hda-gfx：onboard-1
-    - model：Intel Iris Plus Graphics G7
 
 
 
